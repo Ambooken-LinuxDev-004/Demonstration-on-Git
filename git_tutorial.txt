@@ -1,9 +1,9 @@
 git clone <link>
 git branch -> tells which branch are we currently
 git branch -a -> shows all branches
-git checkout -b local -> creating a local branch
-git push origin local -> pushing changes into github(inside local branch)
-git checkout local -> to switch between branches
+git checkout -b <branchname> -> creating a new branch called <branchname>
+git push origin <branchname> -> pushing changes into github(inside <branchname> branch)
+git checkout <branchname> -> to switch between branches
 git branch <branch> -> also creates a new branch
 git branch -d <branch> -> to delete a branch
 
